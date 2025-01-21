@@ -7,7 +7,7 @@ An ASP.NET Core 8 Web API project demonstrating how to integrate **Elasticsearch
 This project follows a layered architecture and consists of the following layers:
 
 1. **ElasticsearchExample.Domain**  
-   - Holds the domain models (e.g. `Product`, DTO classes).  
+   - Holds the domain models (e.g. `Product`).  
    - Represents the core entities used by the application.
 
 2. **ElasticsearchExample.ElasticsearchService**  
