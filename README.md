@@ -37,26 +37,3 @@ Use the provided `docker-compose.yml` to run Elasticsearch (and Kibana) locally:
 ```bash
 docker-compose up -d
 
-
-### Explanation of the Sections
-
-1. **Title and Introduction**  
-   Clearly states the project’s name (*ElasticsearchExample*) and its main objective (using Elasticsearch in an ASP.NET Core Web API).
-
-2. **Project Structure**  
-   Explains each layer in the solution:  
-   - **Domain** holds models (entities, DTOs).  
-   - **ElasticsearchService** contains the integration logic for Elasticsearch.  
-   - **Presentation** exposes the controllers and endpoints.
-
-3. **Technologies Used**  
-   Lists core frameworks and libraries: .NET 8, Elasticsearch, and NEST.
-
-4. **How to Run**  
-   - Instructs how to start Elasticsearch and Kibana with `docker-compose up -d`.  
-   - Shows how to configure the application via `appsettings.json`.  
-   - Explains how to run the .NET solution (`dotnet run`).  
-   - Highlights the available REST endpoints for CRUD and search operations.
-
-With this **README**, anyone viewing your repository can quickly understand what the project does, how it’s structured, and how to get it running locally.
-
